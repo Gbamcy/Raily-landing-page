@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/*----color variables*/
+:root{
+ --white:#fff;
+ --black:#000f;
+ --green:#20c997;
+ --pink:#d63384;
+
+}
+
+.jet{
+    background-color: #343a40;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.center {
+    margin: auto;
+    background-color: var(--black);
+    width: 60%;
+    color: var(--white);
+    border-radius: 10px;
+    padding-bottom: 25px;
+    height: 100vh;
+}
+h1{
+    margin-bottom: 15%;
+    margin-right: 50px;
+}
+.grow {
+    padding-right: 69%;
+    font-size: 13px;
+}
+
+/*---mobile view*/
+@media screen and (max-width: 480px) {
+    .grow{
+        padding-right:69%;
+        font-size:10px ;
+    }
+}
+.network{
+    padding-right: 44%;
+}
+.match{
+    padding-right: 25%;
+    font-size: 18px;
+
+}
+
+/*---mobile view*/
+@media screen and (max-width: 480px) {
+    .match{
+        padding-right:28%;
+        font-size:14px;
+    }
+}
+
+/*----mobile view*/
+@media screen and (max-width: 480px) {
+    .wrist{
+        padding-right:28%;
+        font-size:14px;
+    }
+}
+
+.wrist{
+    padding-right: 55%;
+    padding-bottom: 20px;
+    font-size:18px;
+
+}
+
+.center{
+    text-align: center;
+    padding-top: 25px;
+    color: var(--white);
+
+}
+.loader {
+    float: right;
+    justify-items: center;
+    margin-right: 50%;
+
+}
+.loader {
+    border: 5px solid var(--pink);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+/* loader animation*/
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.box_text{
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 8%;
+}
+
+.button{
+    border: 1px solid #fff;
+    font-size: 10px;
+    padding: 5px 15px;
+    background-color: transparent;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.button_two{
+    font-size: 10px;
+    background-color: var(--green);
+    color: #000;
+    padding: 5px 15px;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+.button_two:hover{
+    background-color: var(--pink);
+}
+.horizontal{
+    border-bottom: 3px solid var(--white);
+    margin-bottom:10%;
+    width: 250px;
+    margin-left: 30%;
+}
+
+/*mobile view*/
+@media screen and (max-width: 480px) {
+    .horizontal{
+        width:100px;
+    }
+}
+
+
+
